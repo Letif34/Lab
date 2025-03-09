@@ -1,0 +1,8 @@
+import math as m
+a = (4.2013*(1/3)) * (0.1*(1/2)) + 2 - (1/3) * (m.exp(2) + m.exp(-2))
+r = m.sin(1/2) * m.tan(-3/4) * m.log(5)
+if a < 2 * r:
+    k = abs(3 * a - 5 * r)(1/2)
+else:
+    k = abs(3 * a + 5 * r)(1/2)
+print(k)
