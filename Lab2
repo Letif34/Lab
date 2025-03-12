@@ -1,0 +1,10 @@
+x = 3  
+a = float(input())
+while x <= 7: 
+    ax = a * x  
+    if ax <= 20:
+        z = 8 * x + 3 * a
+    else:
+        z = 4 * x - 2 * a
+    print(z)  
+    x += 0.5  
