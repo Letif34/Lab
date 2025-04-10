@@ -1,0 +1,13 @@
+import math as m
+x = 0.5
+epsilon = 0.001
+cem = 0
+n = 1
+while True:
+    term = m.cos(2 * n * x) / ((2 * n - 1) * (2 * n + 1))
+    if abs(term) < epsilon:
+        break
+    cem += term
+    n += 1
+
+print(cem)
