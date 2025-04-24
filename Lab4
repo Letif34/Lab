@@ -1,0 +1,4 @@
+import random
+n = 10 
+random_numbers = [random.uniform(-10, 8) for _ in range(n)]
+print(random_numbers)
