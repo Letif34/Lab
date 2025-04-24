@@ -1,0 +1,9 @@
+def sum_elements_greater_than_9(A):
+    total_sum = 0
+    for num in A:
+        if num > 9:
+            total_sum += num
+    return total_sum
+A = [3, 12, 5, 18, 7, 10, 25, 2]
+result = sum_elements_greater_than_9(A)
+print(result)
