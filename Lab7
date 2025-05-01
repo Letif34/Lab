@@ -1,0 +1,11 @@
+numbers = [10, -5, 3, -8, 7, -2, 0, -1]
+
+negative_numbers = [num for num in numbers if num < 0]
+
+negative_sum = sum(negative_numbers)
+
+with open("negative_numbers.txt", "w") as file:
+    for num in negative_numbers:
+        file.write(f"{num}\n")
+
+print(f"Mənfi ədədlərin cəmi: {negative_sum}")
