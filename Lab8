@@ -1,0 +1,6 @@
+import numpy as np
+from scipy.optimize import brentq
+def f(x):
+    return x**2-np.log(x)
+root=brentq(f,0.01,1.0)
+print(root)
